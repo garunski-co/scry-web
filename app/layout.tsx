@@ -1,6 +1,6 @@
+import Navbar from './_nav/navbar';
 import './globals.css';
 
-import Nav from './_nav/nav';
 import { Suspense } from 'react';
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default async function RootLayout({
     <html lang="en" className="h-full bg-gray-50">
       <body className="h-full">
         <Suspense>
-          <Nav />
+          <Navbar user={{}}/>
         </Suspense>
         {children}
       </body>
