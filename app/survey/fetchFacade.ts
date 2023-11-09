@@ -24,6 +24,6 @@ export default async (context: number, trait: string) => {
 
   return {
     prompt: prompts.data[0],
-    words: sampleSize(allWords.data, 9)
+    words: sampleSize(allWords.data, 12)
   };
 };
